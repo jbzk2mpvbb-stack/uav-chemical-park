@@ -2,7 +2,6 @@ import { useState } from "react";
 import AROperationGuide from "./demos/AROperationGuide";
 import UAVDetection from "./demos/UAVDetection";
 import UAVRealtimeMonitor from "./demos/UAVRealtimeMonitor";
-import AnomalyDashboard from "./demos/AnomalyDashboard";
 import ControlCenter from "./demos/ControlCenter";
 
 const DEMOS = [
@@ -10,7 +9,6 @@ const DEMOS = [
   { id: "ar", name: "AR Operation Guide", desc: "AR-assisted unloading procedure with step-by-step guidance", component: AROperationGuide },
   { id: "detect", name: "UAV Detection", desc: "Object detection + safety state classification from drone view", component: UAVDetection },
   { id: "realtime", name: "Realtime Monitor", desc: "Simulated UAV monitoring with Sense → Judge → Act event feed", component: UAVRealtimeMonitor },
-  { id: "anomaly", name: "Anomaly Dashboard", desc: "Multi-signal anomaly detection with AI analysis", component: AnomalyDashboard },
 ];
 
 export default function App() {
